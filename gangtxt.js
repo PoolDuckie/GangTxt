@@ -12,6 +12,8 @@
 //
 // Feel the rhythm of the streets, and let your content hustle with the best of them!
 
+console.log('Gang Text Generator: Online' );
+
 // Array of gang texts
 const gangTexts = [
     "Yo, whaddup homie? We be rollin' deep in the streets, hustlin' day and night. Ain't nobody messin' with our crew. We got the swagger, the style, and the drive to make things happen.",

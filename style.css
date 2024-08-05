@@ -1,0 +1,108 @@
+#appName{
+    text-align: center;
+    font-size: 50px;
+}
+.menu ul{
+    
+    display: flex;
+    justify-content: flex-end;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+.menu ul li{
+    margin: 10px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.container1{
+    /* border: 5px solid red; */
+    display: flex;
+    margin-top: 30px;
+    
+
+}
+
+.figure{
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+
+.figure img{
+    width: 100%;
+    text-align: center;
+    
+}
+
+ .container1 .Message{
+    /* border: 2px solid blue; */
+    
+}
+.container1 .messages{
+    width: 49%;
+}
+
+#welcome{
+    text-align: center;
+    font-size: 50px;
+}
+
+#hero{
+   width: 100vw;
+   height: 600px;
+   overflow: hidden;
+ 
+   background-image: url(images/gangmembers.jpeg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0 30px;
+    
+}
+.container2 .value{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+
+.about{
+    text-align: center;
+}
+.container3{
+    display: flex;
+    
+ 
+}
+.box{
+    padding: 30px;
+    margin-left: 50px;
+    width: 30vh;
+}
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    padding: 0 30px;
+    
+}
+
+.footerBox ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}

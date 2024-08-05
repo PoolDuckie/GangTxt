@@ -3,24 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Gangtxt Homepage</title>
 </head>
 <body>
     <header>
         <h1 id="appName" class="appName"></h1>
     </header>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://github.com/PoolDuckie/GangTxt"></a>Download</li>
+        </ul>
+    </div>
     <main>
-        <h2>Welcome To Our Site!</h2>
-     <div class="container1">
-         <div class="Message" data-length="999"></div><br>
-         <div class="Message" data-length="6969"></div><br>
-         <div class="Message" data-length="420"></div><br>
-         <div class="Message" data-length="1234"></div><br>
-     </div>   
+        <h2 id="welcome"></h2>
+        <div id="hero">
+            <p>We balling</p>
+            <p>When in doubt, gang it out.</p>
+
+        </div>
+        <div class="container1">
+            <div class="messages">
+                <h3>About Us</h3>
+                <div class="Message" data-length="500"></div><br>
+                <div class="Message" data-length="400"></div><br>
+                <div class="Message" data-length="300"></div><br>
+                <div class="Message" data-length="210"></div><br>
+            </div>
+            <div class="figure">
+                
+                    <img src="images/thevanburenboys.jpg" alt="scary gangsters bullying poor bald guy">
+                    <div class="caption">
+                        <p>The Van Buren Boys: The most feared gang in New York, named after the eighth President, and known for their secret eight-finger salute. Even Kramer couldn't escape their terror!</p>
+                    </div>
+                    
+                
+                
+            </div>
+        </div> 
+        <h3 class="about">What Defines US</h3>
+        <div class="container2">
+            <div class="value">
+                <h4>Loyalty</h4>
+                <p class="Message" data-length="780"></p>
+            </div>
+            <div class="value">
+                <h4>Reputation</h4>
+                <p class="Message" data-length="780"></p>
+            </div>
+            <div class="value">
+                <h4>Respect for the Streets</h4>
+                <p class="Message" data-length="780"></p>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="box">
+                <h3>Join Us</h3>
+                <p>Are you ready to join the most feared gang in New York? Fill out the form below to apply!</p>
+                <label for="firstName">
+                    First Name:
+                    <input type="text" id="firstName" name="firstName">
+                </label><br>
+                <label for="lastName">
+                    Last Name:
+                    <input type="text" id="lastName" name="lastName">
+                </label><br>
+                <label for="email">
+                    Email: <br>
+                    <input type="email" id="email" name="email">
+                </label><br>
+                <p>Are you are hard dude?</p>
+                <label for="hard">
+                    Yes
+                    <input type="checkbox" name="hard" id="hard">
+                </label>
+                <label for="nothard">
+                    No
+                    <input type="checkbox" name="nothard" id="nothard">
+                </label><br>
+                <button id="submit">Submit</button>
+            </div>
+            <div class="box"></div>
+            <div class="box">
+                <img src="images/twoharddudes.jpg" alt="two hard dudes">
+                <h4>Two Hard Dudes</h4>
+            </div>
+        </div>
+  
     </main>
     <footer>
-
+        <div class="container4">
+            <div class="footerBox">
+                <h4>Location</h4>
+                <p>123 Druggmoney Ln</p>
+                <p>Gilbert, AZ 85298</p>
+            </div>
+            <div class="footerBox">
+                <h4>Contact</h4>
+                <p>Phone: 480-420-6969</p>
+                <p>Email: </p>
+            </div>
+            <div class="footerBox">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Values</a></li>
+                    <li><a href="#">Join us</a></li>
+                </ul>
+            </div>
+            <div class="footerBox">
+                <ul>
+                    <li><a href="#">Druggmoney.com</a></li>
+                    <li><a href="#">Druggmoney App Drawer </a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Rick Roll</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBox"></div>
+        <div class="footerBox"></div>
+        <p>&copy; 2024 DruggmoneyMedia</p>
     </footer>
     <script src="gangtxt.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
